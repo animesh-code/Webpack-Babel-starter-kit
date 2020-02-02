@@ -1,0 +1,13 @@
+{
+    "presets": [
+        [
+            "@babel/env", {
+                "targets": [
+                    "last 5 versions",
+                    "ie >= 8"
+                ],
+                "useBuiltIns": "usage"
+            }
+        ]
+    ]
+}
